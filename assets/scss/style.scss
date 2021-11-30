@@ -1,3 +1,5 @@
+$color-rosa: rgb(233, 144, 197);
+
 body {
     color: white;
     background-color: #000;
@@ -27,22 +29,10 @@ body {
     max-height: 810px;
     width: 100%;
   }
-  .bottom_novedades{
-    bottom: -32vh !important;
-  }
   
   .img_container {
     position: relative;
     text-align: center;
-  }
-  .tranform{
-  
-    /* ESPEJO */
-      -webkit-box-reflect: below 2px linear-gradient(to bottom, transparent, #0004);
-  
-    /* EFECTO */
-      transform: translate(10px 20px);	
-    
   }
   
   .columna-left {
@@ -64,7 +54,7 @@ body {
   
   .img_button,
   .img_button:active {
-    position:relative;
+    position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -75,14 +65,14 @@ body {
   
   .btn {
     text-decoration: none;
-    color: rgb(233, 144, 197);
-    border: 2px solid rgb(233, 144, 197);
+    color: $color-rosa;
+    border: 2px solid $color-rosa;
     border-radius: 5px;
     width: fit-content;
     text-transform: uppercase;
     letter-spacing: 8px;
     padding: 5px 10px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.5);
   }
   
   .btn:hover {
@@ -227,4 +217,18 @@ body {
   backface-visibility: hidden;
   transition: transform .6s ease-in-out;
   height: 100%;
+}
+
+.accordion-item {
+  background-color: #000;
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+main{
+  padding: 3rem;
+  min-height: 800px;
+}
+
+a {
+  text-decoration: auto;
 }
