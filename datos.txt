@@ -22,3 +22,32 @@ npm -v (Si nos tira un número de versión, tenemos instalado NPM... no hace fal
 Guardar el archivo
 
 9. Ejecutar npm run watch-css (En la consola de comandos o Terminal de Visual Code, ejecutar: npm run watch-css)
+
+
+
+##### subir cambios a git ####
+
+git add .               //agrega todos los archivos del proyecto modificados agregados o eliminador a la nueva version a enviar por el commit
+git commit -m "escribir mensaje de los cambios a subir" // genera el commit con mensaje explicativo
+git push origin NOMBRE_DEL_BRANCH //sube los cambios de la pc (local) a la web (remoto)
+
+
+chequear estado de version
+git status
+
+descargar cambios que pudo hacer otro si comparten el branch
+git pull origin NOMBRE_DEL_BRANCH
+
+cambiar de branch
+git checkout NOMBRE_DEL_BRANCH
+
+crear nuevo branch
+git checkout -b NOMBRE_DEL_BRANCH_NUEVO
+
+descargar branch nuevos que creo otra persona y subio al remoto
+git fetch
+
+traer la ultima version del remoto de este branch, borra todo lo trabajado y no pusheado
+git reset b
+
+https://www.atlassian.com/es/git/tutorials/undoing-changes/git-reset
