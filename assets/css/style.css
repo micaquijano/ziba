@@ -193,3 +193,27 @@ main {
 
 a {
   text-decoration: auto; }
+
+.content {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: justify; }
+
+.accordion-button:not(.collapsed) {
+  color: #e7d98a;
+  background-color: #000; }
+
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-size: 1rem;
+  color: #e7d98a;
+  text-align: left;
+  background-color: #000;
+  border: 0;
+  border-radius: 0;
+  overflow-anchor: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease; }
