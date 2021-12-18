@@ -2,23 +2,25 @@ $color-pink: rgb(233, 144, 197);
 $color-black: #000;
 $color-yellow: rgb(231, 217, 138);
 $color-white: white;
+$font-family: "Roboto", ans-serif;
+
 body {
   color: $color-white;
-    background-color: $color-black;
-    font-family: "Roboto", sans-serif;
+  background-color: $color-black;
+  font-family: "Roboto", sans-serif;
   }
   
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-content: flex;
-    align-items: center;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex;
+  align-items: center;
   }
 
-  .h88{
-    height: 88vh;
+.h88{
+  height: 88vh;
   }
   
   img {
@@ -259,4 +261,22 @@ a {
   border-radius: 0;
   overflow-anchor: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+.container_card{
+  display: flex;
+  flex-direction: row;
+}
+.card_img{
+  position: absolute;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  color: $color-pink;
+}
+.list-group-item{
+  color: $color-black;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  height: 3rem;
 }

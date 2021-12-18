@@ -217,3 +217,21 @@ a {
   border-radius: 0;
   overflow-anchor: none;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease; }
+
+.container_card {
+  display: flex;
+  flex-direction: row; }
+
+.card_img {
+  position: absolute; }
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #e990c5; }
+
+.list-group-item {
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  height: 3rem; }
