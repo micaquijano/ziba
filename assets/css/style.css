@@ -235,3 +235,13 @@ a {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   height: 3rem; }
+
+.flotante {
+  position: relative; }
+
+.wsp-icono {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 100px;
+  right: 50px; }
