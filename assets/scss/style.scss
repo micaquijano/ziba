@@ -28,7 +28,7 @@ img {
   height: 100%;
 }
 
-#img_novedades {
+#img_comjuntos {
   min-height: 400px;
   max-height: 810px;
   width: 100%;
@@ -261,12 +261,12 @@ a {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
     border-radius 0.15s ease;
 }
-.container_card {
+
+.card-group{
   display: flex;
-  flex-direction: row;
-}
-.card_img {
-  position: absolute;
+  flex-flow: row wrap;
+  padding: 80px;
+
 }
 .card {
   display: flex;
