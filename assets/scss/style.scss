@@ -258,21 +258,30 @@ a {
   border-radius: 0;
   overflow-anchor: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-    border-radius 0.15s ease;
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+  border-radius 0.15s ease;
 }
 
 .card-group{
   display: flex;
   flex-flow: row wrap;
   padding: 80px;
-
 }
 .card {
   display: flex;
   flex-direction: column;
-  color: $color-pink;
+  color: $color-white;
+  text-transform: uppercase;
+  margin: 10px 20px 10px 20px;
+  border: none;
+  background-image: linear-gradient(to bottom, rgb(58, 58, 57), rgb(7, 7, 7));
+  align-items:stretch;
 }
+ 
+ .card-text{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
 .list-group-item {
   color: $color-black;
   text-transform: uppercase;
@@ -289,4 +298,5 @@ a {
   position: fixed;
   bottom: 25px;
   right: 20px;
+  z-index: 999;
 }

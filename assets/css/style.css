@@ -226,7 +226,15 @@ a {
 .card {
   display: flex;
   flex-direction: column;
-  color: #e990c5; }
+  color: white;
+  text-transform: uppercase;
+  margin: 10px 20px 10px 20px;
+  border: none;
+  background-image: linear-gradient(to bottom, #3a3a39, #070707);
+  align-items: stretch; }
+
+.card-text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .list-group-item {
   color: #000;
@@ -242,4 +250,5 @@ a {
   width: 50px;
   position: fixed;
   bottom: 25px;
-  right: 20px; }
+  right: 20px;
+  z-index: 999; }
