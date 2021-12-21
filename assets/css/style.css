@@ -12,6 +12,9 @@ body {
 .bg-light {
   background-image: linear-gradient(to bottom, #3a3a39, #070707); }
 
+.nav-link {
+  color: white; }
+
 .h88 {
   height: 88vh; }
 
@@ -27,12 +30,6 @@ img {
 .img_container {
   position: relative;
   text-align: center; }
-
-.columna-left {
-  align-items: flex-start; }
-
-.columna-right {
-  align-items: flex-end; }
 
 .logo {
   font-family: "Italianno", cursive;

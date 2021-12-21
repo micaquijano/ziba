@@ -19,6 +19,10 @@ body {
 .bg-light {
   background-image: linear-gradient(to bottom, rgb(58, 58, 57), rgb(7, 7, 7));
 }
+
+.nav-link{
+  color: $color-white;
+}
 .h88 {
   height: 88vh;
 }
@@ -37,14 +41,6 @@ img {
 .img_container {
   position: relative;
   text-align: center;
-}
-
-.columna-left {
-  align-items: flex-start;
-}
-
-.columna-right {
-  align-items: flex-end;
 }
 
 .logo {
