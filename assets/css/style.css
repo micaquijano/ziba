@@ -3,13 +3,14 @@ body {
   background-color: #000;
   font-family: "Roboto", sans-serif; }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: flex;
-  align-items: center; }
+.collapse:not(.show) {
+  justify-content: flex-end; }
+
+.container-fluid {
+  background-image: linear-gradient(to bottom, #3a3a39, #070707); }
+
+.bg-light {
+  background-image: linear-gradient(to bottom, #3a3a39, #070707); }
 
 .h88 {
   height: 88vh; }
