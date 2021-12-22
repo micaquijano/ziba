@@ -12,10 +12,11 @@ body {
 .bg-light {
   background-image: linear-gradient(to bottom, #3a3a39, #070707); }
 
-.nav-link {
+.d-flex {
+  text-transform: uppercase;
   color: white; }
 
-.h88 {
+.tamanio {
   height: 88vh; }
 
 img {

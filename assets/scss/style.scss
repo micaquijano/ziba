@@ -20,10 +20,11 @@ body {
   background-image: linear-gradient(to bottom, rgb(58, 58, 57), rgb(7, 7, 7));
 }
 
-.nav-link{
+.d-flex{
+  text-transform: uppercase;
   color: $color-white;
 }
-.h88 {
+.tamanio {
   height: 88vh;
 }
 
