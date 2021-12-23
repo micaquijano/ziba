@@ -280,6 +280,14 @@ a {
   background-image: $color-black-gradient;
   align-items:stretch;
 }
+
+.img-with-zoom{
+  transition: transform .2s; /* Animation */
+}
+
+.img-with-zoom:hover{
+  transform: scale(1.05); 
+}
  
  .card-text{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
