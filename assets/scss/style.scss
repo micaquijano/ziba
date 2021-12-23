@@ -289,6 +289,10 @@ a {
   transform: scale(1.05); 
 }
  
+.fit-height{
+  height: fit-content;
+}
+
  .card-text{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
