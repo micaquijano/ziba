@@ -3,7 +3,11 @@ $color-black: #000;
 $color-yellow: rgb(231, 217, 138);
 $color-white: white;
 $font-family: "Roboto", ans-serif;
-$color-black-gradient: linear-gradient(to bottom, rgb(58, 58, 57), rgb(7, 7, 7));
+$color-black-gradient: linear-gradient(
+  to bottom,
+  rgb(58, 58, 57),
+  rgb(7, 7, 7)
+);
 
 body {
   color: $color-white;
@@ -13,15 +17,15 @@ body {
 .collapse:not(.show) {
   justify-content: flex-end;
 }
-.container-fluid{
-  background-image: $color-black-gradient
+.container-fluid {
+  background-image: $color-black-gradient;
 }
 
 .bg-light {
-  background-image: $color-black-gradient
+  background-image: $color-black-gradient;
 }
 
-.d-flex{
+.d-flex {
   text-transform: uppercase;
   color: $color-white;
 }
@@ -147,7 +151,7 @@ h2 {
   align-content: center;
   align-items: center;
   align-self: center;
-  background-image: $color-black-gradient
+  background-image: $color-black-gradient;
 }
 
 footer {
@@ -241,10 +245,10 @@ a {
   color: $color-yellow;
   background-image: $color-black-gradient;
 }
-.top-25{
-  top:25%
+.top-25 {
+  top: 25%;
 }
-.shadow-text{
+.shadow-text {
   text-shadow: 2px 2px 2px black;
 }
 .accordion-button {
@@ -261,11 +265,11 @@ a {
   border-radius: 0;
   overflow-anchor: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
-  border-radius 0.15s ease;
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out,
+    border-radius 0.15s ease;
 }
 
-.card-group{
+.card-group {
   display: flex;
   flex-flow: row wrap;
   padding: 80px;
@@ -278,33 +282,34 @@ a {
   margin: 10px 20px 10px 20px;
   border: none;
   background-image: $color-black-gradient;
-  align-items:stretch;
+  align-items: stretch;
 }
 
-.img-with-zoom{
-  transition: transform .2s; /* Animation */
+.img-with-zoom {
+  transition: transform 0.2s;
 }
 
-.h150{
+.h150 {
   height: 150px;
 }
 
-.img-with-zoom .card-img-top{
+.img-with-zoom .card-img-top {
   height: 600px;
   object-fit: cover;
 }
 
-.img-with-zoom:hover{
-  transform: scale(1.05); 
+.img-with-zoom:hover {
+  transform: scale(1.05);
 }
- 
-.fit-height{
+
+.fit-height {
   height: fit-content;
 }
 
- .card-text{
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- }
+.card-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 
 .list-group-item {
   color: $color-black;
@@ -326,9 +331,10 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: $color-white
+  color: $color-white;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: $color-yellow
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: $color-yellow;
 }
