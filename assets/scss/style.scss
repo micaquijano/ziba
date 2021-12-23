@@ -290,7 +290,8 @@ a {
 }
 
 .img-with-zoom .card-img-top{
-  max-height: 695px;
+  height: 600px;
+  object-fit: cover;
 }
 
 .img-with-zoom:hover{
