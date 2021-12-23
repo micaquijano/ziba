@@ -242,6 +242,12 @@ a {
   transition: transform .2s;
   /* Animation */ }
 
+.h150 {
+  height: 150px; }
+
+.img-with-zoom .card-img-top {
+  max-height: 695px; }
+
 .img-with-zoom:hover {
   transform: scale(1.05); }
 
